@@ -65,6 +65,7 @@ A:active {
 	text-decoration: none;
 }
 /*второй экран*/
+
 .fotosize {
    width: 450px;
    height: 250px;
@@ -104,7 +105,7 @@ h2 {
 }
 .imgaboutme {
 	float: right;
-	margin-left: 80px;
+	/*margin-left: 80px;*/
 }
 
 /*четвертый экран*/
@@ -131,7 +132,7 @@ h2 {
 }
 .imgcode {
 	float: right;
-	margin-left: 80px;
+	/*margin-left: 80px;*/
 }
 /*шестой экран*/
 .experience {
@@ -144,7 +145,7 @@ h2 {
 }
 .imgexperience {
 	float: right;
-	margin-left: 80px;
+	/*margin-left: 80px;*/
 }
 .experience li {
 	margin-bottom: 1.5em;
@@ -162,7 +163,7 @@ h2 {
 }
 .imgeducation {
 	float: right;
-	margin-left: 80px;
+	/*margin-left: 80px;*/
 }
 .education li {
 	font-size: 22px;
@@ -180,7 +181,15 @@ h2 {
 }
 .imgenglish {
 	float: right;
-	margin-left: 80px;
+	/*margin-left: 80px;*/
+}
+
+@media (min-width:650px) and (max-width: 790px) {
+   .wraperbox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
 }
 @media (max-width: 650px) {
    .fotosize {
