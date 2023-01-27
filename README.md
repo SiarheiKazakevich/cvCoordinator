@@ -1,1 +1,1 @@
-https://SiarheiKazakevich.github.io/cvCoordinator/
+https://SiarheiKazakevich.github.io/cv/cvCoordinator/
