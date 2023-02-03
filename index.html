@@ -11,7 +11,7 @@
 
 <body>
    <header class="page-header" id="contacts">
-      <div class="wrapermaintext">
+      <div class="wrapermaintext" id="htmlid">
          <div class="foto">
             <img src="assets/img/myfoto2.png" width="150" height="150" alt="fon">
          </div>
@@ -160,4 +160,23 @@
          </ul>
       </nav>
    </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+   <script>
+      VANTA.BIRDS({
+         el: "#htmlid",
+         mouseControls: true,
+         touchControls: true,
+         gyroControls: true,
+         minHeight: 200.00,
+         minWidth: 200.00,
+         scale: 1.00,
+         scaleMobile: 1.00
+      })
+   </script>
+
+
 </body>
+
+</html>
