@@ -1,5 +1,5 @@
 const mapblur = document.querySelector('.fotosize');
-mapblur.addEventListener('mouseover', toggleBlur);
+mapblur.addEventListener('click', toggleBlur);
 
 function toggleBlur() {
    this.classList.toggle('blur');
