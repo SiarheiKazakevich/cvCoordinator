@@ -206,3 +206,12 @@ h2 {
       padding: 0px 0px 0px 0px;
   }
 }
+
+/*------стили для js  ------*/
+
+.fotosize {
+   transition: filter 1s linear;
+}
+.blur {
+   filter: blur(2px);
+}
