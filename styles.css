@@ -215,3 +215,16 @@ h2 {
 .blur {
    filter: blur(2px);
 }
+
+
+/*------стили для jquery--------*/
+
+.target.anim{
+   animation: rotate 0.5s ease-in-out;
+   }
+   @keyframes rotate{
+   to{
+   transform: rotate(360deg);
+   }
+   }
+
